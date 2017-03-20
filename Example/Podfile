@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PratikFramework_Example' do
+  pod 'PratikFramework', :path => '../'
+
+  target 'PratikFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
