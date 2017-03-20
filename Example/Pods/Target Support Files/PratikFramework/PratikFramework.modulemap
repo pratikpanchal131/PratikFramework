@@ -1,0 +1,6 @@
+framework module PratikFramework {
+  umbrella header "PratikFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

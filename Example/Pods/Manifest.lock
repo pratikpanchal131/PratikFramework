@@ -1,0 +1,16 @@
+PODS:
+  - PratikFramework (0.1.0)
+
+DEPENDENCIES:
+  - PratikFramework (from `../`)
+
+EXTERNAL SOURCES:
+  PratikFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PratikFramework: 09b704a2f4d73ca16d841950233e8284561d71ed
+
+PODFILE CHECKSUM: afb6a14dac076ea04dce73352e5b70be7132ec86
+
+COCOAPODS: 1.2.0

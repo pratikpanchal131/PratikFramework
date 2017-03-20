@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PratikFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PratikFramework.'
+  s.summary          = 'CocoaPods using Storyboard'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Creating CocoaPods with Add Xib Storyboard images Assest created By Pratik Panchal
                        DESC
 
   s.homepage         = 'https://github.com/pratikpanchal131/PratikFramework'
@@ -32,9 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'PratikFramework/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PratikFramework' => ['PratikFramework/Assets/*.png']
-  # }
+  s.source_files = 'PratikFramework/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'PratikFramework' => ['PratikFramework/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
+
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

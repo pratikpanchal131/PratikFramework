@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D99C3E8598E1F949FD08DA9D2A9C0E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		471E76E491A5090FE0A3A5DA2E45F8F0 /* PratikFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831112B5C193F9217D6BDADE48459849 /* PratikFramework-dummy.m */; };
+		50C85BE08D33F6638203466ACE12DC84 /* Pods-PratikFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D1045F86BF2BEEF98B0DC3FD4FFEE1 /* Pods-PratikFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935A10C99AC28A7FBED97CF72F7A5FEE /* Pods-PratikFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 514331C7529C5EAF3E63C374E1E8809F /* Pods-PratikFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94CEA351E8006C90079D31C /* FrameworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94CEA321E8006C90079D31C /* FrameworkVC.swift */; };
+		A94CEA361E8006C90079D31C /* FrameworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94CEA321E8006C90079D31C /* FrameworkVC.swift */; };
+		A94CEA371E8006C90079D31C /* OurCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94CEA331E8006C90079D31C /* OurCell.swift */; };
+		A94CEA381E8006C90079D31C /* OurCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94CEA331E8006C90079D31C /* OurCell.swift */; };
+		CB7BFEF4F70A9E204854E45B44ADA641 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26825734815D71A676FFD009DA228595 /* ReplaceMe.swift */; };
+		D9858A47CA2B27D1BAF27A014E70D04E /* Pods-PratikFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBB9B7DF2B70D65D0D1A7EFC2FD4239 /* Pods-PratikFramework_Example-dummy.m */; };
+		DF357CA34A2D6ED264C53BB1ACA325F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EC32AB2B76016923FFB14236A9A7ED41 /* PratikFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81680AEFEE25B28B66B5AC4E2CDD980F /* PratikFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF8C459FF8B9EA492A25B7D308B15520 /* Pods-PratikFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D67B83CA868689E7DCBEB42A745C7D /* Pods-PratikFramework_Tests-dummy.m */; };
+		F13CC926BF6B295B1FF9C3734B09B292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CEF6F23FD0E380855565D8498BEFB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EEF19D2EDE0EB83355484A77AD72E1;
+			remoteInfo = PratikFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A15948521A9EFE959B3BF4F51ECC9D2 /* PratikFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PratikFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		126B692B30AC49D184059D4E7F56A461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166E8325C593D456766397FD8BD232A7 /* Pods-PratikFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PratikFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B94A6BBC8BD20E16A1170799BC2D836 /* Pods-PratikFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PratikFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26825734815D71A676FFD009DA228595 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		33CD7B8337F6E567201892AF09D0CE40 /* Pods-PratikFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		39D1045F86BF2BEEF98B0DC3FD4FFEE1 /* Pods-PratikFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PratikFramework_Example-umbrella.h"; sourceTree = "<group>"; };
+		3C4E87DFA8B081CC36587F82AB2A6C35 /* Pods_PratikFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PratikFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459FFF5FF1AE5853621754016767CF08 /* Pods-PratikFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PratikFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		51137DA5E21E69BA63C40F3D43C49424 /* Pods-PratikFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikFramework_Tests-resources.sh"; sourceTree = "<group>"; };
+		514331C7529C5EAF3E63C374E1E8809F /* Pods-PratikFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PratikFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5FBB9B7DF2B70D65D0D1A7EFC2FD4239 /* Pods-PratikFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PratikFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		65D405E5262C0A09C3451A4430209E62 /* PratikFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PratikFramework.modulemap; sourceTree = "<group>"; };
+		721D0BA0962F2496022580C34110322D /* PratikFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PratikFramework.xcconfig; sourceTree = "<group>"; };
+		77914F402BC7DBE5403A19CA4A5464B0 /* Pods-PratikFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PratikFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		7B8B58DF5DDD49634514B80871E756E1 /* Pods-PratikFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PratikFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		811CFF5D8F438437C64681544DFB36D0 /* Pods_PratikFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PratikFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81680AEFEE25B28B66B5AC4E2CDD980F /* PratikFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PratikFramework-umbrella.h"; sourceTree = "<group>"; };
+		8241FA8CAE21688628EB6C23D9203825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831112B5C193F9217D6BDADE48459849 /* PratikFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PratikFramework-dummy.m"; sourceTree = "<group>"; };
+		831EFA46EF414A1C2F2D38D8C88AF6BF /* PratikFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PratikFramework-prefix.pch"; sourceTree = "<group>"; };
+		8387E59A0A3BF91A3B43B9BA6E7651F6 /* Pods-PratikFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PratikFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957D209FC89C5CA5A14566A705290CBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED39D1C2A55235415A4010027256785 /* Pods-PratikFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PratikFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A884C7BF9F172365A3C01BBC7E7997A1 /* Pods-PratikFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikFramework_Example-resources.sh"; sourceTree = "<group>"; };
+		A94CEA311E8006C90079D31C /* FrameworkStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FrameworkStoryboard.storyboard; sourceTree = "<group>"; };
+		A94CEA321E8006C90079D31C /* FrameworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkVC.swift; sourceTree = "<group>"; };
+		A94CEA331E8006C90079D31C /* OurCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurCell.swift; sourceTree = "<group>"; };
+		A94CEA341E8006C90079D31C /* OurCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OurCell.xib; sourceTree = "<group>"; };
+		B264CF587B47682F7E5A08E46BB61740 /* Pods-PratikFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PratikFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7C828B97DE0378AC634EE41F2C785E0 /* Pods-PratikFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PratikFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C6D67B83CA868689E7DCBEB42A745C7D /* Pods-PratikFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PratikFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA5CFA2F72423F53510DC394623E7FF9 /* Pods-PratikFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PratikFramework_Example.modulemap"; sourceTree = "<group>"; };
+		E99D9A9120954DF4A3C7845C33825C99 /* Pods-PratikFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PratikFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E8F6890036B702F583699819AAB9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13CC926BF6B295B1FF9C3734B09B292 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0616F159BADDD3FC5CF145459E9787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D99C3E8598E1F949FD08DA9D2A9C0E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA3CF6D5A45A835C3F1076AF66A747E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF357CA34A2D6ED264C53BB1ACA325F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3610AE598C416D3166336D2FD2D79E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E87DFA8B081CC36587F82AB2A6C35 /* Pods_PratikFramework_Example.framework */,
+				811CFF5D8F438437C64681544DFB36D0 /* Pods_PratikFramework_Tests.framework */,
+				0A15948521A9EFE959B3BF4F51ECC9D2 /* PratikFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20356035B56A7B45F0ED03C554D90DB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6CE92C8D4733AEDDA31C43F536DD0F /* Pods-PratikFramework_Example */,
+				9983098333D188A2753D5B9E70FC6C8A /* Pods-PratikFramework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3AACBDBDA0CECC871AFEDAD248F58D40 /* PratikFramework */ = {
+			isa = PBXGroup;
+			children = (
+				750C2C9C457F3180B6AA5A537DBE3F99 /* Classes */,
+			);
+			path = PratikFramework;
+			sourceTree = "<group>";
+		};
+		4809C164C23FA4E695D84736D82694D2 /* PratikFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3AACBDBDA0CECC871AFEDAD248F58D40 /* PratikFramework */,
+				5478239C5E6608A8D0459820FDD0835B /* Support Files */,
+			);
+			name = PratikFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5478239C5E6608A8D0459820FDD0835B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				126B692B30AC49D184059D4E7F56A461 /* Info.plist */,
+				65D405E5262C0A09C3451A4430209E62 /* PratikFramework.modulemap */,
+				721D0BA0962F2496022580C34110322D /* PratikFramework.xcconfig */,
+				831112B5C193F9217D6BDADE48459849 /* PratikFramework-dummy.m */,
+				831EFA46EF414A1C2F2D38D8C88AF6BF /* PratikFramework-prefix.pch */,
+				81680AEFEE25B28B66B5AC4E2CDD980F /* PratikFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PratikFramework";
+			sourceTree = "<group>";
+		};
+		5C6CE92C8D4733AEDDA31C43F536DD0F /* Pods-PratikFramework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8241FA8CAE21688628EB6C23D9203825 /* Info.plist */,
+				DA5CFA2F72423F53510DC394623E7FF9 /* Pods-PratikFramework_Example.modulemap */,
+				7B8B58DF5DDD49634514B80871E756E1 /* Pods-PratikFramework_Example-acknowledgements.markdown */,
+				459FFF5FF1AE5853621754016767CF08 /* Pods-PratikFramework_Example-acknowledgements.plist */,
+				5FBB9B7DF2B70D65D0D1A7EFC2FD4239 /* Pods-PratikFramework_Example-dummy.m */,
+				33CD7B8337F6E567201892AF09D0CE40 /* Pods-PratikFramework_Example-frameworks.sh */,
+				A884C7BF9F172365A3C01BBC7E7997A1 /* Pods-PratikFramework_Example-resources.sh */,
+				39D1045F86BF2BEEF98B0DC3FD4FFEE1 /* Pods-PratikFramework_Example-umbrella.h */,
+				166E8325C593D456766397FD8BD232A7 /* Pods-PratikFramework_Example.debug.xcconfig */,
+				E99D9A9120954DF4A3C7845C33825C99 /* Pods-PratikFramework_Example.release.xcconfig */,
+			);
+			name = "Pods-PratikFramework_Example";
+			path = "Target Support Files/Pods-PratikFramework_Example";
+			sourceTree = "<group>";
+		};
+		750C2C9C457F3180B6AA5A537DBE3F99 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A94CEA311E8006C90079D31C /* FrameworkStoryboard.storyboard */,
+				A94CEA321E8006C90079D31C /* FrameworkVC.swift */,
+				A94CEA331E8006C90079D31C /* OurCell.swift */,
+				A94CEA341E8006C90079D31C /* OurCell.xib */,
+				26825734815D71A676FFD009DA228595 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F451182C9A1DBDDFB6F4ABC11E7466C4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C3610AE598C416D3166336D2FD2D79E /* Products */,
+				20356035B56A7B45F0ED03C554D90DB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9983098333D188A2753D5B9E70FC6C8A /* Pods-PratikFramework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				957D209FC89C5CA5A14566A705290CBD /* Info.plist */,
+				77914F402BC7DBE5403A19CA4A5464B0 /* Pods-PratikFramework_Tests.modulemap */,
+				9ED39D1C2A55235415A4010027256785 /* Pods-PratikFramework_Tests-acknowledgements.markdown */,
+				1B94A6BBC8BD20E16A1170799BC2D836 /* Pods-PratikFramework_Tests-acknowledgements.plist */,
+				C6D67B83CA868689E7DCBEB42A745C7D /* Pods-PratikFramework_Tests-dummy.m */,
+				B264CF587B47682F7E5A08E46BB61740 /* Pods-PratikFramework_Tests-frameworks.sh */,
+				51137DA5E21E69BA63C40F3D43C49424 /* Pods-PratikFramework_Tests-resources.sh */,
+				514331C7529C5EAF3E63C374E1E8809F /* Pods-PratikFramework_Tests-umbrella.h */,
+				8387E59A0A3BF91A3B43B9BA6E7651F6 /* Pods-PratikFramework_Tests.debug.xcconfig */,
+				B7C828B97DE0378AC634EE41F2C785E0 /* Pods-PratikFramework_Tests.release.xcconfig */,
+			);
+			name = "Pods-PratikFramework_Tests";
+			path = "Target Support Files/Pods-PratikFramework_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F451182C9A1DBDDFB6F4ABC11E7466C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4809C164C23FA4E695D84736D82694D2 /* PratikFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81560F049D2F49125CD817E26BDB6CC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935A10C99AC28A7FBED97CF72F7A5FEE /* Pods-PratikFramework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61FF39F3D296578B54CE52EEEEE6AB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C85BE08D33F6638203466ACE12DC84 /* Pods-PratikFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB1C7C187CE36F5F738BB992D7654C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32AB2B76016923FFB14236A9A7ED41 /* PratikFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FCE2A0544F5EB76E7BFD3DCF7667ECB /* Pods-PratikFramework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8387EF8976A2731D6EE219CA9CE0FE4 /* Build configuration list for PBXNativeTarget "Pods-PratikFramework_Example" */;
+			buildPhases = (
+				981DD117FD7FC1CC420B013448ADAC56 /* Sources */,
+				8D0616F159BADDD3FC5CF145459E9787 /* Frameworks */,
+				B61FF39F3D296578B54CE52EEEEE6AB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB32BF1D4DA5A7AC0E2B6FDA921DAC4 /* PBXTargetDependency */,
+			);
+			name = "Pods-PratikFramework_Example";
+			productName = "Pods-PratikFramework_Example";
+			productReference = 3C4E87DFA8B081CC36587F82AB2A6C35 /* Pods_PratikFramework_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1ADC4C2F2A0ECFB3C56ED306BCAABB1B /* Pods-PratikFramework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944F459D0C89FCFDBAB8127D8709F347 /* Build configuration list for PBXNativeTarget "Pods-PratikFramework_Tests" */;
+			buildPhases = (
+				92218DE87C4BF06286423F06545251D5 /* Sources */,
+				77E8F6890036B702F583699819AAB9BD /* Frameworks */,
+				81560F049D2F49125CD817E26BDB6CC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PratikFramework_Tests";
+			productName = "Pods-PratikFramework_Tests";
+			productReference = 811CFF5D8F438437C64681544DFB36D0 /* Pods_PratikFramework_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34EEF19D2EDE0EB83355484A77AD72E1 /* PratikFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B469B26FEC3BFE9D9C0E23E6E94F5333 /* Build configuration list for PBXNativeTarget "PratikFramework" */;
+			buildPhases = (
+				455C16A8CB188F487B1998C453D664C2 /* Sources */,
+				FEA3CF6D5A45A835C3F1076AF66A747E /* Frameworks */,
+				F4FB1C7C187CE36F5F738BB992D7654C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PratikFramework;
+			productName = PratikFramework;
+			productReference = 0A15948521A9EFE959B3BF4F51ECC9D2 /* PratikFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0FCE2A0544F5EB76E7BFD3DCF7667ECB = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C3610AE598C416D3166336D2FD2D79E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FCE2A0544F5EB76E7BFD3DCF7667ECB /* Pods-PratikFramework_Example */,
+				1ADC4C2F2A0ECFB3C56ED306BCAABB1B /* Pods-PratikFramework_Tests */,
+				34EEF19D2EDE0EB83355484A77AD72E1 /* PratikFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455C16A8CB188F487B1998C453D664C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94CEA361E8006C90079D31C /* FrameworkVC.swift in Sources */,
+				471E76E491A5090FE0A3A5DA2E45F8F0 /* PratikFramework-dummy.m in Sources */,
+				A94CEA381E8006C90079D31C /* OurCell.swift in Sources */,
+				CB7BFEF4F70A9E204854E45B44ADA641 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92218DE87C4BF06286423F06545251D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8C459FF8B9EA492A25B7D308B15520 /* Pods-PratikFramework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981DD117FD7FC1CC420B013448ADAC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9858A47CA2B27D1BAF27A014E70D04E /* Pods-PratikFramework_Example-dummy.m in Sources */,
+				A94CEA351E8006C90079D31C /* FrameworkVC.swift in Sources */,
+				A94CEA371E8006C90079D31C /* OurCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB32BF1D4DA5A7AC0E2B6FDA921DAC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PratikFramework;
+			target = 34EEF19D2EDE0EB83355484A77AD72E1 /* PratikFramework */;
+			targetProxy = 24CEF6F23FD0E380855565D8498BEFB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C1FD68959EBFBB69510A3446A8CD635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C828B97DE0378AC634EE41F2C785E0 /* Pods-PratikFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PratikFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PratikFramework_Tests/Pods-PratikFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PratikFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		253F0C44994C9D677F41BD8E10AE4B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721D0BA0962F2496022580C34110322D /* PratikFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PratikFramework/PratikFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PratikFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PratikFramework/PratikFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PratikFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		387F8FF2FEC6D7D978EC7BAA80C8CC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721D0BA0962F2496022580C34110322D /* PratikFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PratikFramework/PratikFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PratikFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PratikFramework/PratikFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PratikFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9046C9654E150F2D6A4FDA13ACC459F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166E8325C593D456766397FD8BD232A7 /* Pods-PratikFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PratikFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PratikFramework_Example/Pods-PratikFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PratikFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA26B5C82FCE565E84A0035295C45958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99D9A9120954DF4A3C7845C33825C99 /* Pods-PratikFramework_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PratikFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PratikFramework_Example/Pods-PratikFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PratikFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA80788DA5832348D0E579E723AAFE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8387E59A0A3BF91A3B43B9BA6E7651F6 /* Pods-PratikFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PratikFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PratikFramework_Tests/Pods-PratikFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PratikFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944F459D0C89FCFDBAB8127D8709F347 /* Build configuration list for PBXNativeTarget "Pods-PratikFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA80788DA5832348D0E579E723AAFE54 /* Debug */,
+				1C1FD68959EBFBB69510A3446A8CD635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B469B26FEC3BFE9D9C0E23E6E94F5333 /* Build configuration list for PBXNativeTarget "PratikFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253F0C44994C9D677F41BD8E10AE4B1A /* Debug */,
+				387F8FF2FEC6D7D978EC7BAA80C8CC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8387EF8976A2731D6EE219CA9CE0FE4 /* Build configuration list for PBXNativeTarget "Pods-PratikFramework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9046C9654E150F2D6A4FDA13ACC459F1 /* Debug */,
+				DA26B5C82FCE565E84A0035295C45958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

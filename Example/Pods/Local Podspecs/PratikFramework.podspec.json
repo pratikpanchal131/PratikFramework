@@ -1,0 +1,22 @@
+{
+  "name": "PratikFramework",
+  "version": "0.1.0",
+  "summary": "A short description of PratikFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pratikpanchal131/PratikFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pratikpanchal131": "pratik.panchal@indianic.com"
+  },
+  "source": {
+    "git": "https://github.com/pratikpanchal131/PratikFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PratikFramework/Classes/**/*"
+}
